@@ -32,8 +32,11 @@ def twoseventydeg(before):
     return ninetydeg(ninetydeg(ninetydeg(before)))
 def reflection():
     arr = []
-    for x in range(n-1,-1,-1):
-        arr.append(before[x])
+    for x in range(n):
+        temp = []
+        for y in range(n-1, -1, -1):
+            temp.append(before[x][y])
+        arr.append(temp)
     return arr
 def combo():
     arr = []
@@ -56,5 +59,3 @@ with open('transform.out', 'w') as fout:
         fout.write('6'+'\n')
     else:
         fout.write('7'+'\n')
-    
-    
