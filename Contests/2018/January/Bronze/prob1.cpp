@@ -4,9 +4,8 @@ using namespace std;
 int intersectLine(int b1, int b2, int l1, int l2){
 	int maxLeft = max(b1,l1);
 	int minRight = min(b2,l2);
-	if(minRight > maxLeft){
+	if(minRight > maxLeft)
 		return minRight - maxLeft;
-	}
 	return 0;
 }
 int main(){
