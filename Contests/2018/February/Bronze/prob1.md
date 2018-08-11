@@ -2,4 +2,5 @@ This one was unusually easy, probably the easiest Bronze I've done so far, which
 1. Go from start to end.
 2. Go from start to teleport1 to teleport2 to end.
 3. Go from start to teleport2 to teleport 1 to end.
+
 At the end, just compare the values of those and output the minimum.
