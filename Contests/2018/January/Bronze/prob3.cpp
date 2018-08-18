@@ -1,7 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <algorithm>
-#include <vector>
 using namespace std;
 size_t unsortedElem(size_t positions[], size_t posSize){
 	
