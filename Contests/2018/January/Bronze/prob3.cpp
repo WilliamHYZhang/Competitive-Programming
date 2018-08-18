@@ -1,10 +1,6 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-size_t unsortedElem(size_t positions[], size_t posSize){
-	
-}
-	
 
 int main(){
 	//cout << "starting" << endl;
