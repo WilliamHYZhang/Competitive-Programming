@@ -14,9 +14,7 @@ int main(){
 	unordered_set<size_t> seen;
 	size_t ans = 0;
 	for(size_t i = 1; i <= N; ++i){
-		if(seen.find(i) != seen.end()){
-			continue; 
-		}
+		if(seen.find(i) != seen.end()) continue; 
 		else{
 			bool saw = false;
 			unordered_set<size_t> tempSeen;
