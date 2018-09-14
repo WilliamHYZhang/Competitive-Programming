@@ -3,6 +3,7 @@ ID: billz541
 TASK: ariprog
 LANG: C++11
 */
+//Note to self: DON'T USE UNORDERED SET NEXT TIME! HASH FUNC TAKES TOO LONG. VEC OF BOOLS IS BETTER.
 #include <iostream>
 #include <fstream>
 #include <unordered_set>
