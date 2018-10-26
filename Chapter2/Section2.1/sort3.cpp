@@ -43,7 +43,6 @@ int main(){
 		if(j < N)
 			seen[j] = true;
 		else{
-			cout << "nope" << endl;
 			if(!alone){
 				firstAloneA = a;
 				firstAloneB = b;
