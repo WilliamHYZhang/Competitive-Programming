@@ -8,6 +8,7 @@ LANG: C++11
 #include <vector>
 using namespace std;
 
+//Note: this solution uses breadth-first search, the analysis uses brute force, this is faster but takes up more space.
 size_t V;
 size_t G;
 vector<size_t> minimum;
