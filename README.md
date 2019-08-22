@@ -14,5 +14,7 @@ Why I don't use Java
 Good advice  
 - “First, solve the problem. Then, write the code.” -John Johnson
 - “Controlling complexity is the essence of computer programming.” -Brian Kernigan
+- “Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” -Bill Gates
+
 
 Have fun yall.
