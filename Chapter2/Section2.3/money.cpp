@@ -15,7 +15,7 @@ long long compute(int n, int c){
 		mem[n][c] = 0;
 		for(int i = c; i < V; ++i)
 			if(n-coins[i] >= 0)
-			  mem[n][c] += compute(n-coins[i], i);
+				mem[n][c] += compute(n-coins[i], i);
 	}
 	return mem[n][c];
 }
