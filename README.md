@@ -1,4 +1,18 @@
 # USACO-Solutions
-Solutions (Python and C++) for various problems in the USACO training website as well as contests. Feel free to look at them but please do not copy them, learn from the logic and implement in your own original code.
+This a catalog of most, if not all of the competitive programming practice I have done regarding USACO training and past contests. Some early solutions were written in Python3, but now I'm programming mostly in C++11. Feel free to browse around and look at them, but please keep in mind I'm still learning and some solutions (especially the earlier ones) are quite utterly sad and gross. As these problems are getting more and more difficult the commit rate for this repo has slown down, but feel free to smash that star button to keep me going :) 
 
-Update: All programs are accepted solutions now
+Fun quotes for my fellow coders:  
+  
+Why C++ isn't for beginners
+- “In C++ it’s harder to shoot yourself in the foot, but when you do, you blow off your whole leg.” -Bjarne Stroustrup
+- “Writing in C or C++ is like running a chain saw with all the safety guards removed.” -Bob Gray
+
+Why I don't use Java  
+- “Java is, in many ways, C++--.” -Michael Feldman
+- “If Java had true garbage collection, most programs would delete themselves upon execution.” -Robert Sewell
+
+Good advice  
+- “First, solve the problem. Then, write the code.” -John Johnson
+- “Controlling complexity is the essence of computer programming.” -Brian Kernigan
+
+Have fun yall.
