@@ -6,15 +6,8 @@ Fun quotes for my fellow coders:
 Why C++ isn't for beginners
 - “In C++ it’s harder to shoot yourself in the foot, but when you do, you blow off your whole leg.” -Bjarne Stroustrup
 - “Writing in C or C++ is like running a chain saw with all the safety guards removed.” -Bob Gray
-
-Why I don't use Java  
-- “Java is, in many ways, C++--.” -Michael Feldman
-- “If Java had true garbage collection, most programs would delete themselves upon execution.” -Robert Sewell
-
-Good advice  
 - “First, solve the problem. Then, write the code.” -John Johnson
 - “Controlling complexity is the essence of computer programming.” -Brian Kernigan
 - “Measuring programming progress by lines of code is like measuring aircraft building progress by weight.” -Bill Gates
 
-
-Have fun yall.
+Have fun coding!
