@@ -3,7 +3,7 @@ ID: billz541
 TASK: concom
 LANG: C++11
 */
-//When you work on a problem for so long, solve it, and seconds later end up forgetting how it worked ¯\_(ツ)_/¯
+//When you work on a problem for so long, solve it, and seconds later end up forgetting how it worked ¯\_(ツ)_/¯ jk
 #include <bits/stdc++.h>
 using namespace std;
 
