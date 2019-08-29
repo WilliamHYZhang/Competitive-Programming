@@ -2,6 +2,7 @@
 #pragma GCC target ("sse4")
 
 #include <bits/stdc++.h>
+using namespace std;
 
 #define mp make_pair
 #define pb push_back
