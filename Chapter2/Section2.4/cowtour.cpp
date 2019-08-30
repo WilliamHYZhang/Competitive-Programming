@@ -85,9 +85,8 @@ int main(){
 	}
 
 	vector<double> MAXs;
-	for(int i = 0; i < fields.size(); ++i){
+	for(int i = 0; i < fields.size(); ++i)
 		MAXs.pb(FW(fields[i]));
-	}
 
 	double MIN = INT_MAX;
 	for(int i = 0; i < fields.size()-1; ++i){
