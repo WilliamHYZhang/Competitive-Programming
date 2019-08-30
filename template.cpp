@@ -14,5 +14,4 @@ using namespace std;
 int main(){
 
 }
-
 //Keep It Simple, Stupid!
