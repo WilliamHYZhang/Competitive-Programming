@@ -1,4 +1,4 @@
-//Algo template for Dijkstra (shortest path given source vertex and graph as adj list)
+//Algo template for Dijkstra (shortest path given source vertex and graph as adj list): O(E*logV)
 
 int N; //number of vertices
 vector<list<pair<int, int>>> graph;

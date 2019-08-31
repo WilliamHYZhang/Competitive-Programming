@@ -1,4 +1,4 @@
-//Algo template for FloydWarshall (all pairs shortest path given graph as adj matrix)
+//Algo template for FloydWarshall (all pairs shortest path given graph as adj matrix): O(N^3)
 
 int N; //Number of verticies
 int matrix[N][N]; // INF if not connected, otherwise weight of connection
