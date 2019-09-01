@@ -13,7 +13,6 @@ for(int i = 0; i < N; ++i)
 for(int k = 0; k < N; ++k)
 	for(int i = 0; i < N; ++i)
 		for(int j = 0; j < N; ++j)
-			if(dist[i][k] != INF &&
-				dist[k][j] != INF &&
+			if(dist[i][k] != INF && dist[k][j] != INF &&
 				dist[i][k] + dist[k][j] < dist[i][j])
 				dist[i][j] = dist[i][k] + dist[k][j];
