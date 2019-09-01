@@ -10,6 +10,7 @@ using namespace std;
 #define s second
 #define lb lower_bound
 #define ub upper_bound
+#define INF INT_MAX
 
 int main(){
 
