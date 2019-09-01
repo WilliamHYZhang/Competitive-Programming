@@ -12,6 +12,10 @@ using namespace std;
 #define ub upper_bound
 #define INF INT_MAX
 
+#define sz(x) (int)x.size()
+#define all(x) begin(x), end(x)
+#define rsz resize
+
 int main(){
 
 }
