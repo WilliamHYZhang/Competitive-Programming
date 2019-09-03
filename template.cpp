@@ -17,6 +17,7 @@ using namespace std;
 #define rsz resize
 
 int main(){
-
+	ifstream fin("");
+	ofstream fout("");
 }
 //Keep It Simple, Stupid!
