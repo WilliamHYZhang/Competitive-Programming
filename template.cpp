@@ -11,6 +11,7 @@ using namespace std;
 #define lb lower_bound
 #define ub upper_bound
 #define INF INT_MAX
+#define MOD 1000000007
 
 #define sz(x) (int)x.size()
 #define all(x) begin(x), end(x)
