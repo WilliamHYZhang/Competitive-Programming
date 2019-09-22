@@ -4,6 +4,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+typedef string str;
+typedef long long ll;
+
+typedef pair<int, int> pi;
+typedef pair<ll, ll> pl;
+typedef vector<int> vi;
+typedef vector<ll> vl;
+
 #define mp make_pair
 #define pb push_back
 #define f first
