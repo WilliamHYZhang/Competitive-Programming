@@ -20,11 +20,11 @@ using namespace std;
 int main(){
 	int N;
 	cin >> N;
-	long long int a[100000];
+	long long a[100000];
 	for(int i = 0; i < N; ++i)
 		cin >> a[i];
 
-	long long int dp[100000][2];
+	long long dp[100000][2];
 	dp[0][0] = abs(-1 - a[0]);
 	dp[0][1] = abs(1 - a[0]);
 
