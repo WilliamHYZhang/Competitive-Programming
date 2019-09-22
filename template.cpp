@@ -6,11 +6,7 @@ using namespace std;
 
 typedef string str;
 typedef long long ll;
-
-typedef pair<int, int> pi;
-typedef pair<ll, ll> pl;
-typedef vector<int> vi;
-typedef vector<ll> vl;
+typedef long double ld;
 
 #define mp make_pair
 #define pb push_back
