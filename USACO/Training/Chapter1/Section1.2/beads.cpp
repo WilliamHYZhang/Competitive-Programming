@@ -41,7 +41,6 @@ int main(){
 	for(int i = 0; i < N; ++i){
 		tmpMAX = 2;
 		for(int j = i, cur = b[j];; --j){
-			cout << "backward: " << j << endl;
 			nxt = j == 0 ? b[N-1] : b[j-1];
 			if(j == 0) j = N;
 			if(cur == 'w' && nxt != 'w') cur = nxt; 
@@ -50,7 +49,6 @@ int main(){
 			if(tmpMAX > N) break;
 		}
 		for(int j = i+1 == N ? 0 : i+1, cur = b[j];; ++j){
-			cout << "forward: " << j << endl;
 			nxt = j == N-1 ? b[0] : b[j+1];
 			if(j == N-1) j = -1;
 			if(cur == 'w' && nxt != 'w') cur = nxt; 
