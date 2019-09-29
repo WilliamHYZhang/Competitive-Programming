@@ -38,32 +38,24 @@ int main(){
 
 	int MAX = 0, tmpMAX = 0;
 	char cur, nxt;
-	bool done = false;
 	for(int i = 0; i < N; ++i){
-		//cout << endl << endl;
 		tmpMAX = 2;
 		for(int j = i, cur = b[j];; --j){
-			cout << "backward: " << j << endl;
 			nxt = j == 0 ? b[N-1] : b[j-1];
 			if(j == 0) j = N;
-			
 			if(cur == 'w' && nxt != 'w') cur = nxt; 
 			if(nxt == cur || nxt == 'w') ++tmpMAX;
 			else break;
 			if(tmpMAX > N) break;
 		}
-		//cur = 'w';
 		for(int j = i+1 == N ? 0 : i+1, cur = b[j];; ++j){
-			cout << "forward: " << j << endl;
 			nxt = j == N-1 ? b[0] : b[j+1];
 			if(j == N-1) j = -1;
-			
 			if(cur == 'w' && nxt != 'w') cur = nxt; 
 			if(nxt == cur || nxt == 'w') ++tmpMAX;
 			else break;
 			if(tmpMAX > N) break;
 		}
-		//cout << "TEMPMAX: " << tmpMAX << endl;
 		MAX = max(MAX, min(tmpMAX, N));
 	}
 	fout << MAX << endl;
