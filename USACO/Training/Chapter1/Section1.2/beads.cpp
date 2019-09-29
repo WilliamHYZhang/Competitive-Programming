@@ -38,7 +38,6 @@ int main(){
 
 	int MAX = 0, tmpMAX = 0;
 	char cur, nxt;
-	bool done = false;
 	for(int i = 0; i < N; ++i){
 		tmpMAX = 2;
 		for(int j = i, cur = b[j];; --j){
