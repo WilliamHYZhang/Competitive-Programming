@@ -4,7 +4,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-typedef string str;
 typedef long long ll;
 typedef long double ld;
 
