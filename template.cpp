@@ -8,7 +8,10 @@ typedef long long ll;
 typedef long double ld;
 
 #define mp make_pair
-#define pb push_back
+#define pub push_back
+#define puf push_front
+#define pob pop_back
+#define pof pop_front
 #define f first
 #define s second
 #define lb lower_bound
