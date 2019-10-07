@@ -17,7 +17,7 @@ typedef long double ld;
 #define lb lower_bound
 #define ub upper_bound
 
-#define sz(x) (int)x.size()
+#define sz(x) (size_t)x.size()
 #define all(x) begin(x), end(x)
 #define rsz resize
 
