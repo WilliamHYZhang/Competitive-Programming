@@ -12,6 +12,7 @@ typedef long double ld;
 #define puf push_front
 #define pob pop_back
 #define pof pop_front
+#define ins insert
 #define f first
 #define s second
 #define lb lower_bound
