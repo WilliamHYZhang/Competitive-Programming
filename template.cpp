@@ -21,8 +21,17 @@ typedef long double ld;
 #define all(x) begin(x), end(x)
 #define rsz resize
 
-const int INF = INT_MAX;
-const int MOD = 1000000007;
+const ll INF = 1e18;
+const ld PI = 4*atan((ld)1);
+const int MOD = 1e9 + 7;
+
+#include <ext/pb_ds/assoc_container.hpp>
+#include <ext/pb_ds/tree_policy.hpp>
+using namespace __gnu_pbds;
+template <typename T>
+using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+#define ook order_of_key
+#define fbo find_by_order
 
 int main(){
 	ifstream fin("");
