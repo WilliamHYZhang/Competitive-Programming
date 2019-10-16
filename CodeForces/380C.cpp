@@ -32,7 +32,7 @@ using namespace __gnu_pbds;
 template <typename T>
 using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
 #define ook order_of_key
-#define fbo query_by_order
+#define fbo find_by_order
 
 const int MAXM = 1000000;
 int segx[4*MAXM], segl[4*MAXM], segr[4*MAXM];
