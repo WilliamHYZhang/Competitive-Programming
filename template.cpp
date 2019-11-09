@@ -36,6 +36,8 @@ using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statisti
 
 int main(){
 	ifstream fin("");
+	fin.sync_with_stdio(false);
+	fin.tie(NULL);
 	ofstream fout("");
 }
 //Keep It Simple, Stupid!
