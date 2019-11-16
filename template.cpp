@@ -35,9 +35,17 @@ using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statisti
 #define fbo find_by_order
 
 int main(){
+	//USACO
+	/*
 	ifstream fin("");
 	fin.sync_with_stdio(false);
 	fin.tie(NULL);
 	ofstream fout("");
+	*/
+	//CF
+	/*
+	cin.sync_with_stdio(false);
+	cin.tie(NULL);
+	*/
 }
 //Keep It Simple, Stupid!
