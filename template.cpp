@@ -50,7 +50,7 @@ int main(){
 }
 //Keep It Simple, Stupid!
 /*
-Avoid:
+Caution:
 - integer overflow (check num constraints)
 - segfault (check array / other ds bounds)
 - special / edge cases
