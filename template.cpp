@@ -49,3 +49,11 @@ int main(){
 	*/
 }
 //Keep It Simple, Stupid!
+/*
+Avoid:
+- integer overflow (check num constraints)
+- segfault (check array / other ds bounds)
+- special / edge cases
+
+Stay organized and think before you type.
+*/
