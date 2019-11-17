@@ -1,0 +1,16 @@
+#!/usr/bin/expect -f
+
+set commit_message [lindex $argv 0]
+
+spawn git add .
+spawn git commit -m $commit_message
+
+set timeout -1
+spawn git push
+match_max 100000
+expect -exact "Username for 'https://github.com': "
+send -- "WilliamHYZhang\r"
+expect -exact "WilliamHYZhang\r
+Password for 'https://WilliamHYZhang@github.com': "
+send -- "efcb5707d8fa867c179e884742830696ee70101d\r"
+expect eof

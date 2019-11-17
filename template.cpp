@@ -46,7 +46,7 @@ int main(){
 }
 /*
 Keep It Simple, Stupid!
-	
+
 Caution:
 - integer overflow (check num constraints)
 - segfault (check array / other ds bounds)
