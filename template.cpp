@@ -44,8 +44,9 @@ int main(){
 	fin.tie(NULL);
 	ofstream fout("");
 }
-//Keep It Simple, Stupid!
 /*
+Keep It Simple, Stupid!
+	
 Caution:
 - integer overflow (check num constraints)
 - segfault (check array / other ds bounds)
