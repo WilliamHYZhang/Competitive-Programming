@@ -34,12 +34,12 @@ using ordered_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statisti
 #define ook order_of_key
 #define fbo find_by_order
 
-//USACO
+//file IO
 ifstream fin("");
 ofstream fout("");
 
 int main(){
-	//CF
+	//std IO
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 }
