@@ -40,8 +40,8 @@ int main(){
 
 	int T;
 	cin >> T;
-	for(int i = 1; i <= T; ++i){
-		cout << "Case #" << i << ": " << "\n";
+	for(int test_case = 1; test_case <= T; ++test_case){
+		cout << "Case #" << test_case << ": " << "\n";
 	}
 }
 //Keep It Simple, Stupid!
